@@ -5,6 +5,7 @@ In this project, a machine learning model will be developed to forecast home pri
 scikit learn - For the model building
 matplotlib - for visualizations.
 
+## Model Building
 The Scikit-learn library's LinearRegression model is utilized to create the prediction model. The train_test_split function divides the dataset into training and testing data, and the model is trained using the training data.
 
 Using the model.score() function, the trained model is evaluated and scored yielding an accuracy score of 71.6 percent. The accuracy could be improved if more enhanced machine learning techniques are applied.
